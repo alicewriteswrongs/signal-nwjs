@@ -12,6 +12,21 @@ First you need to install the NW builder:
 npm install -g nw-builder
 ```
 
+There's a shell script called `package.sh` which will prepare this repo to
+produce a packaged app. So just do:
+
+```
+./package.sh
+```
+
+and then you should be able to execute
+
+```
+nwbuild -p Linux64 .
+```
+
+to build a package!
+
 ##Manually running signal in nw.js
 
 If you want to do this yourself you can do the following (after installing
