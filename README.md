@@ -1,10 +1,10 @@
-#Signal nw.js
+# Signal nw.js
 
 [nw.js](http://nwjs.io/) provides for easily running Chrome applications
 in it's native app containers (which ship Node and all application files
 as a standard platform native application.
 
-##Building a Signal Desktop packaged application
+## Building a Signal Desktop packaged application
 
 First you need to install the NW builder:
 
@@ -27,7 +27,7 @@ nwbuild -p Linux64 .
 
 to build a package!
 
-##Manually running signal in nw.js
+## Manually running signal in nw.js
 
 If you want to do this yourself you can do the following (after installing
 [nw.js](http://nwjs.io/):
